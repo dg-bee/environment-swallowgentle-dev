@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQCIVdIUMtWNcqP6Gx4azwZjANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRhMTU5MzM5Ni0yZTIwLTRiMjAtYWY2My1iZGE3NWRiNGY1ODMw
+    HhcNMTkwNTE0MTAzNTM2WhcNMjQwNTEyMTEzNTM2WjAvMS0wKwYDVQQDEyRhMTU5
+    MzM5Ni0yZTIwLTRiMjAtYWY2My1iZGE3NWRiNGY1ODMwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDV6Ahy++XuPoVXwrOXNzKgA5hRqshTNLqLhyv/rMXF
+    IldH+uU7y75tbtMB+Cmwpv0ml1uIQ574Q7EnFZdSURy4ehoidu2fiqp/HJ8u3TKU
+    Sw7XGEFyuwD52/4icutmD0xMQ5sFe0Kk/w/sqPSO5oyY9q/Upbd2Q3zJZ4EX2PMW
+    T1pTsdxhGuob7sJJuvEu3Nig0MPb24gOuLL81BT0TXOP4rWxx/rCDaV/1ZJfokva
+    +rS/jSnoBLPiOHjRfbbmgidNVRp4euOChdC0sKePcGezEN/kRI7nJ6+ng2yuTrHE
+    OGCJz0mC2giVPM0VJXOVf9SUBS7TuhkGxKdB3bYftpQ7AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCV
+    pTo5lnJq1nRPIdC2/6SZ01rhkB0unCXYbTvecD53d+gyi3WadAw68YhMD773X34W
+    d9fg6/vQKeYAmlV8IfRgi1B5v+iukf5oAo9Hokjx2UNsK6WpAnt83tVc49m5zTOd
+    FI6BBcLUKvFC8bVcUQUx36sXSRIHbnveta0IEOw0b6yYluVtR8eCy6Pej96ELTlU
+    wDNmUX2u/LQ7zLZqur4++6s+BHgFZTyLtdvt7dqFXMg5a/yt820RaKB7ubviBxBC
+    iyBsN511CGnn19LPlLI0VdkeMjaBdTUd7WNY1r/POGGXPvpxLOc1qlQdCcn1ARRy
+    XbWSbs/7tFLOQbiEINuu
+    -----END CERTIFICATE-----
+  clusterName: swallowgentle
+  jx-install-version: 2.0.0-dev+7b5c81c3a
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.187.19.43
+  systemVaultName: jx-vault-swallowgentle
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
